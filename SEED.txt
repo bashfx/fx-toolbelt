@@ -1,0 +1,17 @@
+
+
+NEED: we need a super tool to help with understanding capabilities, logging metrics and status, and executing command patterns and processes under the ~/repos/ space, fundamental tools we have like build.sh deploy.sh, and standard paths and processes are all over the place, and could be consolidate for super usage. This tool should support multi-agentic/user workflows where more than one process may be invoking this tool at the same time.
+
+We will stub our MVP tool tool out in bashfx and then consider whether to port it to rsb.  We have a similar logistics/intelligence tool in fx-pantheon that helps agents playing pantheonic roles to know their key locations, we are also iterating on our in-hosue namespaced kv-database tool to have a central knowledge store.
+
+
+WANTS:
+- bashfx compliance, probably  the build.sh pattern using part files
+- data-first outputs using "token streams" with optional --view=data 
+- good terminal ux leveraging token streams + integration with jynx/boxy
+- support for agentic and normal user usage and info
+- quick reconnaisance of available tools and commands
+- status reports of key systems/usage patterns
+- dashboard for running system analysis commands
+- help/knowledge system for tactical in the moment insights
+
